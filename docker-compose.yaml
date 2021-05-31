@@ -42,7 +42,7 @@ services:
       - .:/application
       - ./docker/php/php-ini-overrides.ini:/etc/php/7.4/fpm/conf.d/99-overrides.ini
 
-  node: &node
+  node:
     image: node:10.22-slim
     container_name: api-node
     networks:
