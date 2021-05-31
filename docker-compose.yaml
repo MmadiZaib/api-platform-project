@@ -14,7 +14,7 @@ services:
       - .:/application
     environment:
       - MYSQL_ROOT_PASSWORD=admin
-      - MYSQL_DATABASE=video-db
+      - MYSQL_DATABASE=api-db
       - MYSQL_USER=user
       - MYSQL_PASSWORD=user
     ports:
